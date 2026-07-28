@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Felipe Bergamin Dantas",
+    "subtitle": "Data Analytics · BI · Data Engineering",
+    "description": "I turn data into strategic solutions through analytics, data engineering and software development.",
+    "primaryCta": "View projects",
+    "secondaryCta": "Get in touch",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "cv": "Resume",
+    "scroll": "Explore my journey"
+  },
+  "about": {
+    "title": "Turning data into solutions that create value.",
+    "paragraph1": "I work across Data Analytics, Business Intelligence and Data Engineering, transforming data into strategic insight through SQL, Python, ETL and Power BI. My focus is on building solutions that support decision-making, automate processes and create measurable business value. I also use automation, APIs, n8n and AI agents to streamline workflows, accelerate delivery and improve operational efficiency.",
+    "paragraph2": "What sets me apart is my experience in Software Development, using technologies such as React, Next.js, TypeScript, Python and FastAPI. This integrated perspective allows me to understand the full lifecycle of a solution, from data architecture and engineering to the delivery of modern, scalable applications.",
+    "paragraph3": "I also have advanced English skills, which allows me to work with technical documentation, follow specialized content and collaborate with teams and professionals from different countries."
+  },
+  "expertise": {
+    "title": "Turning technical knowledge into complete solutions.",
+    "areas": [
+      {
+        "title": "Data Analytics",
+        "description": "I turn data into strategic insights that support better decisions and create business value."
+      },
+      {
+        "title": "Data Engineering",
+        "description": "I design reliable, scalable pipelines, ETL processes and data models."
+      },
+      {
+        "title": "Business Intelligence",
+        "description": "I build dashboards and indicators that make complex data easier to understand and act on."
+      },
+      {
+        "title": "Software Development",
+        "description": "I build modern web applications and APIs that deliver end-to-end solutions."
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "SKILLS",
+    "title": "Technologies and capabilities to turn data into solutions.",
+    "analyticsTitle": "Data Analytics & Engineering",
+    "softwareTitle": "Software Development",
+    "categories": {
+      "analytics": "Analytics & Business Intelligence",
+      "engineering": "Data Engineering",
+      "automation": "Automation & AI",
+      "frontend": "Frontend Development",
+      "backend": "Backend & APIs",
+      "tools": "Development Tools & Practices"
+    },
+    "items": {
+      "powerBi": "Power BI",
+      "dax": "DAX",
+      "powerQuery": "Power Query",
+      "businessIntelligence": "Business Intelligence",
+      "dataVisualization": "Data Visualization",
+      "dashboardDevelopment": "Dashboard Development",
+      "kpiAnalysis": "KPI Analysis",
+      "excelAnalytics": "Excel Analytics",
+      "python": "Python",
+      "sql": "SQL",
+      "etl": "ETL",
+      "dataPipelines": "Data Pipelines",
+      "dataWarehouse": "Data Warehouse",
+      "dataModeling": "Data Modeling",
+      "dataIntegration": "Data Integration",
+      "dataQuality": "Data Quality",
+      "sqlServer": "SQL Server",
+      "postgreSql": "PostgreSQL",
+      "mySql": "MySQL",
+      "n8n": "n8n",
+      "aiAgents": "AI Agents",
+      "llmIntegration": "LLM Integration",
+      "processAutomation": "Process Automation",
+      "apiIntegration": "API Integration",
+      "javaScript": "JavaScript",
+      "html5": "HTML5",
+      "css3": "CSS3",
+      "tailwindCss": "Tailwind CSS",
+      "fastApi": "FastAPI",
+      "restApis": "REST APIs",
+      "swaggerOpenApi": "Swagger / OpenAPI",
+      "authentication": "Authentication",
+      "oauth": "OAuth 2.0",
+      "git": "Git",
+      "gitHub": "GitHub",
+      "ciCd": "CI/CD",
+      "vercel": "Vercel",
+      "softwareArchitecture": "Software Architecture",
+      "responsiveDesign": "Responsive Design"
+    }
+  },
+  "projects": {
+    "eyebrow": "FEATURED PROJECTS",
+    "title": "Projects that demonstrate technical maturity and product vision.",
+    "dataTitle": "Data Analytics & Engineering",
+    "softwareTitle": "Software Development",
+    "dataPlaceholder": "Data projects will be added soon.",
+    "actions": {
+      "accessPlatform": "Access Platform",
+      "accessDocs": "Access Swagger",
+      "accessWebsite": "Access Website",
+      "viewRepository": "View Repository",
+      "viewDetails": "View details"
+    },
+    "defaultHighlight": "Solution built with a strong focus on product impact and real-world value."
+  },
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Let's build something together.",
+    "description": "I am open to opportunities, projects and connections in technology and data.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "channelSwitch": {
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    },
+    "name": "Name",
+    "subject": "Subject",
+    "message": "Message",
+    "submitWhatsapp": "Send via WhatsApp",
+    "submitEmail": "Send by email",
+    "linkedinValue": "Connect with me",
+    "validation": {
+      "name": "Please enter your name",
+      "subject": "Please enter an email subject",
+      "message": "Please write a more complete message"
+    },
+    "placeholder": {
+      "name": "Your name",
+      "subject": "Email subject",
+      "message": "Tell me more about your project or opportunity"
+    }
+  },
+  "footer": {
+    "description": "Turning data into solutions through technology, engineering and innovation.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "copyright": "© 2026 Felipe Bergamin Dantas"
+  },
+  "language": {
+    "label": "Language",
+    "pt": "Português (PT-BR)",
+    "en": "English (EN-US)"
+  },
+  "common": {
+    "and": "and"
+  }
+}

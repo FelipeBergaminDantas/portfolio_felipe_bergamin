@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "expertise": "Especialização",
+    "skills": "Competências",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Felipe Bergamin Dantas",
+    "subtitle": "Análise de Dados · BI · Engenharia de Dados",
+    "description": "Transformo dados em soluções estratégicas por meio de análise de dados, engenharia e desenvolvimento de software.",
+    "primaryCta": "Ver projetos",
+    "secondaryCta": "Entrar em contato",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "cv": "Currículo",
+    "scroll": "Explorar trajetória"
+  },
+  "about": {
+    "title": "Transformando dados em soluções que geram valor.",
+    "paragraph1": "Atuo na área de Análise de Dados, Inteligência de Negócios e Engenharia de Dados, transformando dados em informações estratégicas por meio de SQL, Python, ETL e Power BI. Meu foco é desenvolver soluções que apoiem a tomada de decisões, automatizem processos e gerem valor para o negócio. Complementando essa atuação, utilizo automações, APIs, n8n e agentes de IA para otimizar fluxos de trabalho, acelerar projetos e aumentar a eficiência operacional.",
+    "paragraph2": "Como diferencial, também possuo experiência em Desenvolvimento de Software, utilizando tecnologias como React, Next.js, TypeScript, Python e FastAPI. Essa visão integrada me permite compreender todo o ciclo de uma solução, desde a estruturação e engenharia dos dados até o desenvolvimento de aplicações modernas e escaláveis.",
+    "paragraph3": "Além disso, possuo inglês avançado, o que me permite trabalhar com documentação técnica, acompanhar conteúdos especializados e colaborar em projetos com equipes e profissionais de diferentes países."
+  },
+  "expertise": {
+    "title": "Transformando conhecimento técnico em soluções completas.",
+    "areas": [
+      {
+        "title": "Análise de Dados",
+        "description": "Transformo dados em informações estratégicas para apoiar decisões e gerar valor para o negócio."
+      },
+      {
+        "title": "Engenharia de Dados",
+        "description": "Estruturo pipelines, processos de ETL e modelos de dados confiáveis e escaláveis."
+      },
+      {
+        "title": "Inteligência de Negócios",
+        "description": "Desenvolvo painéis e indicadores que tornam dados complexos mais claros e acessíveis."
+      },
+      {
+        "title": "Desenvolvimento de Software",
+        "description": "Desenvolvo aplicações web e APIs modernas para entregar soluções completas de ponta a ponta."
+      }
+    ]
+  },
+  "skills": {
+    "eyebrow": "COMPETÊNCIAS",
+    "title": "Tecnologias e competências para transformar dados em soluções.",
+    "analyticsTitle": "Análise de Dados & Engenharia",
+    "softwareTitle": "Desenvolvimento de Software",
+    "categories": {
+      "analytics": "Análise de Dados e Inteligência de Negócios",
+      "engineering": "Engenharia de Dados",
+      "automation": "Automação & IA",
+      "frontend": "Desenvolvimento Frontend",
+      "backend": "Backend e APIs",
+      "tools": "Ferramentas e Práticas de Desenvolvimento"
+    },
+    "items": {
+      "powerBi": "Power BI",
+      "dax": "DAX",
+      "powerQuery": "Power Query",
+      "businessIntelligence": "Inteligência de Negócios",
+      "dataVisualization": "Visualização de Dados",
+      "dashboardDevelopment": "Desenvolvimento de Dashboards",
+      "kpiAnalysis": "Análise de KPIs",
+      "excelAnalytics": "Excel Analytics",
+      "python": "Python",
+      "sql": "SQL",
+      "etl": "ETL",
+      "dataPipelines": "Pipelines de Dados",
+      "dataWarehouse": "Data Warehouse",
+      "dataModeling": "Modelagem de Dados",
+      "dataIntegration": "Integração de Dados",
+      "dataQuality": "Qualidade de Dados",
+      "sqlServer": "SQL Server",
+      "postgreSql": "PostgreSQL",
+      "mySql": "MySQL",
+      "n8n": "n8n",
+      "aiAgents": "AI Agents",
+      "llmIntegration": "Integração com LLM",
+      "processAutomation": "Automação de Processos",
+      "apiIntegration": "Integração de APIs",
+      "javaScript": "JavaScript",
+      "html5": "HTML5",
+      "css3": "CSS3",
+      "tailwindCss": "Tailwind CSS",
+      "fastApi": "FastAPI",
+      "restApis": "APIs REST",
+      "swaggerOpenApi": "Swagger / OpenAPI",
+      "authentication": "Autenticação",
+      "oauth": "OAuth 2.0",
+      "git": "Git",
+      "gitHub": "GitHub",
+      "ciCd": "CI/CD",
+      "vercel": "Vercel",
+      "softwareArchitecture": "Arquitetura de Software",
+      "responsiveDesign": "Design Responsivo"
+    }
+  },
+  "projects": {
+    "eyebrow": "PRINCIPAIS PROJETOS",
+    "title": "Projetos que demonstram maturidade técnica e visão de produto.",
+    "dataTitle": "Análise de Dados & Engenharia",
+    "softwareTitle": "Desenvolvimento de Software",
+    "dataPlaceholder": "Projetos de dados serão adicionados em breve.",
+    "actions": {
+      "accessPlatform": "Acessar plataforma",
+      "accessDocs": "Acessar Swagger",
+      "accessWebsite": "Acessar site",
+      "viewRepository": "Ver repositório",
+      "viewDetails": "Ver detalhes"
+    },
+    "defaultHighlight": "Solução desenvolvida com foco em impacto real e valor para o produto."
+  },
+  "contact": {
+    "eyebrow": "CONTATO",
+    "title": "Vamos construir algo juntos.",
+    "description": "Estou aberto a oportunidades, projetos e conexões na área de tecnologia e dados.",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "channelSwitch": {
+      "whatsapp": "WhatsApp",
+      "email": "E-mail"
+    },
+    "name": "Nome",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "submitWhatsapp": "Enviar pelo WhatsApp",
+    "submitEmail": "Enviar por e-mail",
+    "linkedinValue": "Conectar comigo",
+    "validation": {
+      "name": "Digite seu nome",
+      "subject": "Digite um assunto para o e-mail",
+      "message": "Escreva uma mensagem mais completa"
+    },
+    "placeholder": {
+      "name": "Seu nome",
+      "subject": "Assunto do e-mail",
+      "message": "Conte-me mais sobre seu projeto ou oportunidade"
+    }
+  },
+  "footer": {
+    "description": "Transformando dados em soluções por meio de tecnologia, engenharia e inovação.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "copyright": "© 2026 Felipe Bergamin Dantas"
+  },
+  "language": {
+    "label": "Idioma",
+    "pt": "Português (PT-BR)",
+    "en": "English (EN-US)"
+  },
+  "common": {
+    "and": "e"
+  }
+}

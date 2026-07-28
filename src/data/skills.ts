@@ -1,0 +1,32 @@
+export const dataSkills = [
+  "SQL",
+  "Python",
+  "Power BI",
+  "DAX",
+  "Power Query",
+  "ETL",
+  "Data Warehouse",
+  "Data Modeling",
+  "Business Intelligence",
+  "Pandas",
+  "PySpark",
+  "SQL Server",
+  "PostgreSQL",
+  "MySQL",
+];
+
+export const softwareSkills = [
+  "TypeScript",
+  "JavaScript",
+  "React",
+  "Next.js",
+  "FastAPI",
+  "REST APIs",
+  "OAuth 2.0",
+  "Tailwind CSS",
+  "Git",
+  "GitHub",
+  "HTML5",
+  "CSS3",
+  "Vercel",
+];
