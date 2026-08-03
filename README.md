@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Felipe Bergamin Dantas
 
-## Getting Started
+Portfólio profissional desenvolvido em Next.js 16 com TypeScript, apresentando projetos de análise de dados, engenharia de dados e desenvolvimento de software.
 
-First, run the development server:
+## 🎯 Sobre
+
+Este é um portfólio moderno e responsivo que apresenta:
+
+- **Projetos de Dados**: Qualidade de Dados, Precificação
+- **Projetos de Software**: ClimaTech (full stack), Max Solutions & Performance, Robô Entregador
+- **Seções**: Hero, Sobre, Especialização, Competências, Projetos e Contato
+- **Internacionalização**: Suporte completo para português e inglês
+- **Design**: Interface moderna com animações Framer Motion e Tailwind CSS
+
+## 🚀 Funcionalidades
+
+- ✅ Seção de projetos com cards expansíveis para detalhes
+- ✅ Suporte para múltiplos idiomas (PT-BR e EN-US)
+- ✅ Demonstração e repositório de projetos com links customizados
+- ✅ Dashboard de competências e skills
+- ✅ Formulário de contato com integração via WhatsApp e e-mail
+- ✅ Animações suaves com Framer Motion
+- ✅ Design responsivo (desktop, tablet, mobile)
+- ✅ Otimização de performance com Next.js
+
+## 📦 Tech Stack
+
+- **Framework**: Next.js 16.2.12
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React, FontAwesome
+- **Forms**: React Hook Form, Zod
+- **Email**: Resend
+- **Internationalization**: next-intl
+
+## 🛠️ Como Rodar
+
+### Pré-requisitos
+- Node.js 18+
+- npm, yarn ou pnpm
+
+### Instalação
 
 ```bash
+# Clone o repositório
+git clone <seu-repo>
+cd portfolio
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build para Produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 📁 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                    # Páginas e layouts (Next.js App Router)
+├── components/             # Componentes reutilizáveis
+│   ├── navigation/         # Navbar
+│   ├── portfolio/          # PortfolioShell
+│   └── ui/                 # Button, Badge, Container, SectionTitle
+├── features/               # Componentes da página
+│   ├── about/              # Seção Sobre
+│   ├── contact/            # Seção Contato
+│   ├── expertise/          # Seção Especialização
+│   ├── footer/             # Rodapé
+│   ├── hero/               # Seção Hero
+│   ├── projects/           # Seção Projetos
+│   └── skills/             # Seção Competências
+├── data/                   # Dados estáticos (projetos, navegação, etc)
+├── lib/                    # Utilitários (i18n, utils)
+├── types/                  # TypeScript types
+└── config/                 # Configurações (site.ts)
+locales/                    # Arquivos de tradução (pt-BR.json, en-US.json)
+public/                     # Arquivos estáticos (imagens, SVGs)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Customização
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Adicionar Novo Projeto
 
-## Deploy on Vercel
+Edite `src/data/projects.ts`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```typescript
+{
+  id: "seu-projeto",
+  slug: "seu-projeto",
+  category: "software" | "data",
+  featured: true,
+  title: { pt: "Título PT", en: "Título EN" },
+  description: { pt: "...", en: "..." },
+  stack: ["Tech1", "Tech2"],
+  links: { app?: "...", demo?: "...", github?: "..." },
+  image: "/images/projects/seu-projeto.svg",
+  highlights: { pt: ["..."], en: ["..."] }
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Idiomas
+
+As traduções estão em `locales/`:
+- `pt-BR.json` - Português (Brasil)
+- `en-US.json` - Inglês (EUA)
+
+## 📝 Linting
+
+```bash
+npm run lint
+```
+
+## 📄 Licença
+
+Projeto pessoal - Felipe Bergamin Dantas
+
