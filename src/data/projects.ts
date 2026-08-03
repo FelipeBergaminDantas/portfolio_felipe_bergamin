@@ -20,18 +20,124 @@ export const projects: PortfolioProject[] = [
     },
     stack: ["Python", "FastAPI", "Next.js", "TypeScript", "PostgreSQL"],
     links: {
-      app: "https://plataforma-clima-tech.vercel.app/",
-      api: "https://backend-climatech-production.up.railway.app/",
+      app: "https://plataforma-climatech.vercel.app/",
+      api: "https://backend-climatech.onrender.com",
       github: "https://github.com/FelipeBergaminDantas/frontend-climatech",
-    },
-    demoCredentials: {
-      pt: "E-mail: testeuser@gmail.com · Senha: 12345678",
-      en: "Email: testeuser@gmail.com · Password: 12345678",
     },
     image: "/images/projects/climatech.svg",
     highlights: {
       pt: ["Arquitetura escalável", "UX orientada a dados", "Autenticação e dashboards"],
       en: ["Scalable architecture", "Data-driven UX", "Authentication and dashboards"],
+    },
+  },
+  {
+    id: "qualidade-dados",
+    slug: "qualidade-dados",
+    category: "data",
+    featured: true,
+    title: {
+      pt: "Qualidade de Dados",
+      en: "Data Quality",
+    },
+    shortDescription: {
+      pt: "Solução automatizada de monitoramento da qualidade dos dados, com regras de negócio, alertas automáticos e acompanhamento analítico.",
+      en: "Automated solution for monitoring data quality, with business rules, automatic alerts and analytical tracking.",
+    },
+    description: {
+      pt: "Solução automatizada de monitoramento da qualidade dos dados, desenvolvida para identificar anomalias através de regras de negócio, gerar alertas automáticos e disponibilizar análises para acompanhamento dos indicadores.",
+      en: "Automated solution for monitoring data quality, designed to identify anomalies through business rules, generate automatic alerts and provide analyses for monitoring key indicators.",
+    },
+    stack: ["Python", "SQL Server", "Power BI", "Power Automate"],
+    links: {},
+    details: {
+      pt: [
+        "Projeto desenvolvido para criação de uma solução automatizada de monitoramento da qualidade dos dados, com o objetivo de identificar possíveis anomalias em informações estratégicas através de regras de negócio definidas.",
+        "A solução realizava o processamento diário dos dados, aplicando validações para identificar inconsistências relacionadas a indicadores como vendas, faturamento e cancelamentos. Os resultados das análises eram armazenados em uma estrutura de banco de dados própria, permitindo histórico, rastreabilidade e acompanhamento das ocorrências identificadas.",
+        "Como parte do processo, foram desenvolvidos mecanismos de automação para envio de alertas via e-mail, Microsoft Teams e Power Automate, disponibilizando resumos diários com os registros classificados como possíveis anomalias e dados dentro dos padrões esperados.",
+        "Além disso, foi criado um dashboard de acompanhamento para análise dos indicadores de qualidade, histórico de alertas e monitoramento das ocorrências, proporcionando maior visibilidade e agilidade na identificação de problemas relacionados aos dados."
+      ],
+      en: [
+        "Project developed to create an automated solution for monitoring data quality, with the goal of identifying possible anomalies in strategic information through defined business rules.",
+        "The solution processed data daily, applying validations to identify inconsistencies related to indicators such as sales, revenue and cancellations. The analysis results were stored in a dedicated database structure, enabling history, traceability and monitoring of identified occurrences.",
+        "As part of the process, automation mechanisms were developed to send alerts through email, Microsoft Teams and Power Automate, providing daily summaries with records classified as possible anomalies and data within expected standards.",
+        "In addition, a monitoring dashboard was created to analyze quality indicators, alert history and occurrence tracking, providing greater visibility and speed in identifying data-related issues."
+      ],
+    },
+    detailHighlights: {
+      pt: [
+        "Desenvolvimento de processos automatizados de validação de dados",
+        "Criação de regras de negócio para identificação de anomalias",
+        "Estruturação de banco de dados para armazenamento dos resultados",
+        "Automação de alertas com Power Automate e notificações via e-mail e Microsoft Teams",
+        "Desenvolvimento de dashboard analítico para acompanhamento"
+      ],
+      en: [
+        "Development of automated data validation processes",
+        "Creation of business rules to identify anomalies",
+        "Structuring of a database to store analysis results",
+        "Automation of alerts with Power Automate and notifications via email and Microsoft Teams",
+        "Development of an analytical dashboard for monitoring"
+      ],
+    },
+    image: "/images/projects/qualidade-dados.svg",
+    highlights: {
+      pt: ["Monitoramento automatizado", "Regras de negócio", "Alertas e dashboards"],
+      en: ["Automated monitoring", "Business rules", "Alerts and dashboards"],
+    },
+  },
+  {
+    id: "precificacao",
+    slug: "precificacao",
+    category: "data",
+    featured: true,
+    title: {
+      pt: "Precificação",
+      en: "Pricing",
+    },
+    shortDescription: {
+      pt: "Automação de um processo de precificação anteriormente realizado manualmente, envolvendo integração de dados, estruturação de banco de dados dimensional e criação de dashboards analíticos.",
+      en: "Automation of a pricing process previously performed manually, involving data integration, dimensional database structuring and analytical dashboard creation.",
+    },
+    description: {
+      pt: "Projeto desenvolvido com o objetivo de automatizar e estruturar o processo de precificação de produtos, substituindo atividades manuais realizadas por meio de arquivos Excel por um fluxo automatizado de processamento e análise de dados.",
+      en: "Project developed to automate and structure the product pricing process, replacing manual activities carried out through Excel files with an automated workflow for data processing and analysis.",
+    },
+    stack: ["Python", "SQL Server", "Power BI", "ETL"],
+    links: {},
+    details: {
+      pt: [
+        "Foi desenvolvido um processo de integração responsável por coletar automaticamente os dados provenientes de planilhas, realizar o tratamento das informações e disponibilizá-las em um banco de dados estruturado.",
+        "A base foi organizada utilizando conceitos de modelagem dimensional, com criação de tabelas estruturadas e procedimentos automatizados para atualização dos dados, garantindo maior organização, confiabilidade e eficiência no processo.",
+        "Como etapa final, foram desenvolvidos dashboards analíticos no Power BI para acompanhamento dos indicadores relacionados à precificação dos produtos, permitindo uma visão mais clara das informações e apoiando a tomada de decisão."
+      ],
+      en: [
+        "An integration process was developed to automatically collect data from spreadsheets, process the information and make it available in a structured database.",
+        "The data model was organized using dimensional modeling concepts, with structured tables and automated procedures for updating data, ensuring better organization, reliability and efficiency.",
+        "As a final step, analytical dashboards were developed in Power BI to monitor pricing-related indicators, providing clearer visibility and supporting decision-making."
+      ],
+    },
+    detailHighlights: {
+      pt: [
+        "Automação do processo de atualização dos dados de precificação",
+        "Desenvolvimento de pipeline de integração entre arquivos Excel e banco de dados",
+        "Estruturação de modelo dimensional",
+        "Criação de procedimentos automatizados para atualização das informações",
+        "Desenvolvimento de dashboards estratégicos no Power BI",
+        "Redução de atividades manuais no processo analítico"
+      ],
+      en: [
+        "Automation of the pricing data refresh process",
+        "Development of an integration pipeline between Excel files and the database",
+        "Structuring of a dimensional model",
+        "Creation of automated procedures to update information",
+        "Development of strategic dashboards in Power BI",
+        "Reduction of manual activities in the analytical process"
+      ],
+    },
+    image: "/images/projects/precificacao.svg",
+    highlights: {
+      pt: ["Automação de atualização de dados", "Integração entre Excel e banco", "Dashboards estratégicos"],
+      en: ["Automated data refresh", "Excel-to-database integration", "Strategic dashboards"],
     },
   },
   {
@@ -80,6 +186,7 @@ export const projects: PortfolioProject[] = [
     },
     stack: ["TypeScript", "Java 17", "IoT", "ESP32"],
     links: {
+      demo: "https://robo-entregador-demo-one.vercel.app/",
       github: "https://github.com/FelipeBergaminDantas/robo-entregador",
     },
     image: "/images/projects/robot.svg",

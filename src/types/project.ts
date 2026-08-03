@@ -26,6 +26,8 @@ export interface PortfolioProject {
     demo?: string;
   };
   demoCredentials?: TranslatedText;
+  details?: TranslatedList;
+  detailHighlights?: TranslatedList;
   image: string;
   highlights: TranslatedList;
 }

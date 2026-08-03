@@ -110,9 +110,14 @@
       "accessPlatform": "Acessar plataforma",
       "accessDocs": "Acessar Swagger",
       "accessWebsite": "Acessar site",
+      "accessDemo": "Ver demonstração",
       "viewRepository": "Ver repositório",
-      "viewDetails": "Ver detalhes"
+      "viewDetails": "Ver detalhes",
+      "viewMoreInfo": "Ver mais informações"
     },
+    "detailsTitle": "Detalhes do projeto",
+    "highlightsTitle": "Principais entregas",
+    "technologiesTitle": "Tecnologias",
     "defaultHighlight": "Solução desenvolvida com foco em impacto real e valor para o produto."
   },
   "contact": {

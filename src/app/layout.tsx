@@ -30,6 +30,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/images/favicon_felipe.png",
+    shortcut: "/images/favicon_felipe.png",
+    apple: "/images/favicon_felipe.png",
   },
 };
 

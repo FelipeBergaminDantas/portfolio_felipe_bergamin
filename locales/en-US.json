@@ -110,9 +110,14 @@
       "accessPlatform": "Access Platform",
       "accessDocs": "Access Swagger",
       "accessWebsite": "Access Website",
+      "accessDemo": "View demo",
       "viewRepository": "View Repository",
-      "viewDetails": "View details"
+      "viewDetails": "View details",
+      "viewMoreInfo": "View more information"
     },
+    "detailsTitle": "Project details",
+    "highlightsTitle": "Key deliverables",
+    "technologiesTitle": "Technologies",
     "defaultHighlight": "Solution built with a strong focus on product impact and real-world value."
   },
   "contact": {
