@@ -15,8 +15,9 @@ export const projects: PortfolioProject[] = [
       en: "Full stack platform for smart monitoring of climate-controlled environments.",
     },
     description: {
-      pt: "Plataforma full stack para monitoramento inteligente de ambientes climatizados, desenvolvida para centralizar informações operacionais, acompanhar dados em tempo real e apoiar tomadas de decisão baseadas em dados. O projeto envolve uma arquitetura completa com frontend, backend, API e banco de dados.",
-      en: "Full stack platform for smart monitoring of climate-controlled environments, designed to centralize operational information, track real-time data and support data-driven decision making. The project includes a complete architecture with frontend, backend, API and database.",
+      pt: "Projeto premiado com o 3º lugar na ExpoTech, evento acadêmico de tecnologia da faculdade, desenvolvido para apresentar soluções inovadoras na área de computação. O ClimaTech é uma plataforma full stack para monitoramento inteligente de ambientes climatizados, desenvolvida para centralizar informações operacionais, acompanhar dados em tempo real e apoiar tomadas de decisão baseadas em dados.",
+
+      en: "Project awarded 3rd place at ExpoTech, an academic technology event focused on presenting innovative solutions in computing. ClimaTech is a full stack platform for smart monitoring of climate-controlled environments, designed to centralize operational information, track real-time data and support data-driven decision making.",
     },
     stack: ["Python", "FastAPI", "Next.js", "TypeScript", "PostgreSQL"],
     links: {
@@ -26,8 +27,16 @@ export const projects: PortfolioProject[] = [
     },
     image: "/images/projects/climatech.svg",
     highlights: {
-      pt: ["Arquitetura escalável", "UX orientada a dados", "Autenticação e dashboards"],
-      en: ["Scalable architecture", "Data-driven UX", "Authentication and dashboards"],
+      pt: [
+        "3º lugar na ExpoTech",
+        "Arquitetura full stack",
+        "Dashboards e monitoramento em tempo real"
+      ],
+      en: [
+        "3rd place at ExpoTech",
+        "Full stack architecture",
+        "Real-time monitoring and dashboards"
+      ],
     },
   },
   {
@@ -154,8 +163,8 @@ export const projects: PortfolioProject[] = [
       en: "Institutional landing page focused on conversion and value proposition presentation.",
     },
     description: {
-      pt: "Landing page institucional desenvolvida para uma consultoria especializada em performance para vendedores do Mercado Livre, com foco em apresentar serviços, resultados e fortalecer a presença digital da empresa. O projeto foi construído com uma interface moderna, responsiva e orientada à conversão de clientes.",
-      en: "Institutional landing page developed for a consultancy specialized in performance for Mercado Livre sellers, focused on presenting services, results and strengthening the company's digital presence. The project was built with a modern, responsive interface oriented toward customer conversion.",
+      pt: "Landing page institucional desenvolvida para uma consultoria especializada em performance para vendedores do Mercado Livre, com o objetivo de apresentar seus serviços, resultados e fortalecer sua presença digital. O projeto foi construído com uma interface moderna, responsiva e orientada à conversão de clientes, destacando a proposta de valor da empresa e proporcionando uma experiência de navegação intuitiva.",
+      en: "Institutional landing page developed for a consultancy specialized in performance for Mercado Livre sellers, with the goal of presenting its services, results and strengthening its digital presence. The project was built with a modern, responsive interface focused on customer conversion, highlighting the company's value proposition and providing an intuitive browsing experience.",
     },
     stack: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     links: {

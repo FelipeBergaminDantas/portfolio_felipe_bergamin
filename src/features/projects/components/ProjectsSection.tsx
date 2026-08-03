@@ -54,7 +54,7 @@ export function ProjectsSection() {
                       </div>
 
                       <p className="mt-5 text-sm leading-7 text-slate-400">{locale === "pt-BR" ? project.description.pt : project.description.en}</p>
-                      <p className="mt-3 text-sm leading-7 text-slate-400">{locale === "pt-BR" ? project.highlights.pt?.[0] ?? t("projects.defaultHighlight") : project.highlights.en?.[0] ?? t("projects.defaultHighlight")}</p>
+                      <p className="mt-3 text-sm leading-7 font-semibold text-orange-400">{locale === "pt-BR" ? project.highlights.pt?.[0] ?? t("projects.defaultHighlight") : project.highlights.en?.[0] ?? t("projects.defaultHighlight")}</p>
 
                       <div className="mt-6 flex flex-wrap gap-2">
                         {project.stack.map((tech) => (
@@ -146,7 +146,7 @@ export function ProjectsSection() {
                     </div>
 
                     <p className="mt-5 text-sm leading-7 text-slate-400">{locale === "pt-BR" ? project.description.pt : project.description.en}</p>
-                    <p className="mt-3 text-sm leading-7 text-slate-400">{locale === "pt-BR" ? project.highlights.pt?.[0] ?? t("projects.defaultHighlight") : project.highlights.en?.[0] ?? t("projects.defaultHighlight")}</p>
+                    <p className="mt-3 text-sm leading-7 font-semibold text-orange-400">{locale === "pt-BR" ? project.highlights.pt?.[0] ?? t("projects.defaultHighlight") : project.highlights.en?.[0] ?? t("projects.defaultHighlight")}</p>
 
                     <div className="mt-6 flex flex-wrap gap-2">
                       {project.stack.map((tech) => (
